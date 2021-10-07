@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+p{
+  color: gray;
+}
+.main{
+  background-color: rgb(210, 228, 231);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: white;
+  box-shadow: 1px 1px 2px 1px rgb(129, 125, 125);
+  padding:  20px;
+  margin: 20px;
+  border-radius: 3px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box :nth-child(1) { order: 1; }
+.box :nth-child(2) { order: 2; }
+.box :nth-child(3) { order: 3; }
+.box :nth-child(4) { order: 4; }
+.box :nth-child(5) { order: 5; }
+
+.rp{
+height: 300px;
+width: 25%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+
+.navbar{
+  background-color: rgb(43, 138, 216);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  }
+
+.nav{
+  background-color: rgb(12, 160, 160);
+  
+
+}
+
+.content{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  padding-bottom: 3vh;
+}
+.S1{
+  background-color: white;
+  box-shadow: 1px 1px 2px 1px rgb(129, 125, 125);
+  padding:  20px;
+  border-radius: 3px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.text{
+  text-align: center;
+}
+
+.content-content-2{
+  background-color: violet;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+
+}
+.pp{
+  background-color: turquoise;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.previous {
+  
+  color: rgb(253, 253, 253);
+}
+
+.next {
+  color: white;
+}
+
+
+.fa-dribbble {
+  background: #c4c4c4;
+  color: white;
+  margin: 1vh;
+
+}
+
+.fa-facebook {
+  background: #bfc5d3;
+  color: white;
+  margin: 1vh;
+}
+
+.fa-twitter {
+  background: #c0c7cc;
+  color: white;
+  margin: 1vh;
+}
+
+.fa-linkedin {
+  background: #9aa9af;
+  color: white;
+  margin: 1vh;
+}
+.logo{
+  display: inline-table;
+  height: 15px;
+  width:15px;
+}
+#icons{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(209, 201, 201);
+
+}
